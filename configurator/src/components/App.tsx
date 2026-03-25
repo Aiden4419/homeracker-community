@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useSyncExternalStore } from "react";
 import { ViewportCanvas } from "./ViewportCanvas";
-import { Sidebar } from "./Sidebar";
+import Sidebar from "./Sidebar";
 import { Toolbar } from "./Toolbar";
 import { BOMPanel } from "./BOMPanel";
 import { AssemblyState } from "../assembly/AssemblyState";
